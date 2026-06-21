@@ -1,0 +1,74 @@
+# Dependency Directories
+node_modules/
+.pnpm-store/
+.yarn/
+jspm_packages/
+web_modules/
+
+# Python Cache and Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.venv/
+venv/
+ENV/
+env/
+
+# Next.js Build and Optimization Artifacts
+.next/
+out/
+build/
+dist/
+
+# SQLite Databases and SQL Dumps
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+e2e_prod_truth.sqlite
+geo_db.sqlite
+test_geo_db.sqlite
+
+# Environment Variables and Secret Configurations
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+*.pem
+*.key
+jwt_secret_key*
+
+# OS Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.cursor/
+
+# Temporary and Audit Logs
+verification_output.txt
+redis_check.txt
+pytest_output.txt
+scratch_*/
+scratch_debug_imports.py
+docs/implementation/logs/emails/

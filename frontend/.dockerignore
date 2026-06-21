@@ -1,0 +1,17 @@
+node_modules
+.next
+.git
+.github
+.gitignore
+*.log
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+Dockerfile
+DEPLOYMENT.md
+README.md
+AGENTS.md
+CLAUDE.md
+compare.js
+screenshot.js
