@@ -1,15 +1,15 @@
 FROM python:3.11-slim-bookworm
 
-ENV PYTHONUNBUFFERED=1 
-PYTHONDONTWRITEBYTECODE=1 
-PORT=8000
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PORT=8000
 
 WORKDIR /backend
 
-RUN apt-get update && apt-get install -y --no-install-recommends 
-build-essential 
-libpq-dev 
-&& rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    libpq-dev \
+    && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
 
